@@ -1,9 +1,12 @@
 package test;
 
 public class HelloWorld {
+	public int a;
+	public char b;
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!!");
+		ATypeName test = new ATypeName(1, "Testname");
+		System.out.println(test.toString());
 
 	}
 
